@@ -69,7 +69,7 @@ class Base12306(object):
         """
         """
         try:
-            response = self.session.get(url, headers=self.headers, params=params, timeout=8, verify=False)
+            response = self.session.get(url, headers=self.headers, params=params, timeout=30, verify=False)
             return response
         except requests.exceptions.HTTPError as e:
             logging.error("HTTP Error: %s", e)
