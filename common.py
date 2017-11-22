@@ -59,7 +59,7 @@ class Base12306(object):
         """
         self.urls = {
             'query': baseurl + 'lcxxcx/query',          #余票查询, now forbidden
-            'bookquery': baseurl + 'leftTicket/queryZ', #预订查询
+            'bookquery': baseurl + 'leftTicket/query', #预订查询
             'stations': baseurl + "resources/js/framework/station_name.js"
         }
 
